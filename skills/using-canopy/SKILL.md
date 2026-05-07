@@ -67,3 +67,4 @@ Do not use write-capable MCP or transform commands unless the user has asked for
 - `canopy transform`: structural refactors and AST-boundary chunks.
 - `canopy mcp --root .`: expose structural tools to agents; add `--allow-writes` only for trusted mutation workflows.
 - Public source: [odvcencio/canopy](https://github.com/odvcencio/canopy)
+- Latest release: [Canopy releases/latest](https://github.com/odvcencio/canopy/releases/latest)

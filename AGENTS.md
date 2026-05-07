@@ -17,7 +17,18 @@ The repo contains the first public skill corpus. Production skill bodies are add
 
 - `skills/using-arbiter/SKILL.md`
 - `skills/using-canopy/SKILL.md`
+- `skills/using-buckley/SKILL.md`
+- `skills/using-graft/SKILL.md`
+- `skills/using-gotreesitter/SKILL.md`
 - `skills/using-mdpp/SKILL.md`
+- `skills/using-manta/SKILL.md`
+- `skills/using-mll/SKILL.md`
+- `skills/using-corkscrewdb/SKILL.md`
+- `skills/using-turboquant/SKILL.md`
+- `skills/using-mirage/SKILL.md`
+- `skills/using-fluffyui/SKILL.md`
+- `skills/using-mane/SKILL.md`
+- `skills/using-ferrous-wheel/SKILL.md`
 - `skills/using-gosx/SKILL.md`
 - `skills/using-gosx-components/SKILL.md`
 - `skills/using-gosx-routing/SKILL.md`

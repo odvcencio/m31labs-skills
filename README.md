@@ -1,6 +1,6 @@
 # M31 Labs Skills
 
-Teaching skills for M31 Labs products: Arbiter, Canopy, mdpp, and GoSX.
+Teaching skills for M31 Labs products, libraries, languages, and agent tooling.
 
 This repository is the public home for LLM-readable skills that explain when to use M31 Labs technology and how to use it correctly. The goal is to close the gap between modern agents and products that may not exist in their training data.
 
@@ -22,7 +22,18 @@ Start with [AGENTS.md](AGENTS.md). If a skill body exists under `skills/<skill>/
 |---|---|---|
 | [`using-arbiter`](skills/using-arbiter/SKILL.md) | Decision modeling, entitlements, feature gates, workflow rules | Available |
 | [`using-canopy`](skills/using-canopy/SKILL.md) | Structural code intelligence, references, call graphs, blast radius | Available |
+| [`using-buckley`](skills/using-buckley/SKILL.md) | AI agent harness, governed commits, PRs, reviews, ACP/LSP surfaces | Available |
+| [`using-graft`](skills/using-graft/SKILL.md) | Structural version control, entity merges, coordination, work claims | Available |
+| [`using-gotreesitter`](skills/using-gotreesitter/SKILL.md) | Pure-Go tree-sitter parsing, queries, tags, highlights, rewrites | Available |
 | [`using-mdpp`](skills/using-mdpp/SKILL.md) | Grammar-aware markdown tooling, diagnostics, formatting, export | Available |
+| [`using-manta`](skills/using-manta/SKILL.md) | GPU inference language, portable MLL execution plans, quantized tensors | Available |
+| [`using-mll`](skills/using-mll/SKILL.md) | Binary ML artifact container, sections, hashes, signatures, checkpoints | Available |
+| [`using-corkscrewdb`](skills/using-corkscrewdb/SKILL.md) | Versioned vector database, HLC history, TurboQuant indexes, gRPC | Available |
+| [`using-turboquant`](skills/using-turboquant/SKILL.md) | Vector quantization, inner-product scoring, KV cache compression | Available |
+| [`using-mirage`](skills/using-mirage/SKILL.md) | TurboQuant-native image codec, Manta-backed learned `.mrg` artifacts | Available |
+| [`using-fluffyui`](skills/using-fluffyui/SKILL.md) | Go TUI framework, widgets, FSS styling, MCP and web backends | Available |
+| [`using-mane`](skills/using-mane/SKILL.md) | Terminal editor, LSP actions, web modes, MCP editor tools | Available |
+| [`using-ferrous-wheel`](skills/using-ferrous-wheel/SKILL.md) | `.fw` to Go transpiler, Rust-inspired syntax, fmt/lint/LSP | Available |
 | [`using-gosx`](skills/using-gosx/SKILL.md) | GoSX umbrella, setup, mental model, skill routing | Available |
 | [`using-gosx-components`](skills/using-gosx-components/SKILL.md) | `.gsx` component syntax and rendering model | Available |
 | [`using-gosx-routing`](skills/using-gosx-routing/SKILL.md) | File routing, layouts, loaders, server rendering | Available |
