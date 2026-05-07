@@ -1,0 +1,11 @@
+{
+  "name": "m31labs-skills",
+  "version": "0.1.0",
+  "description": "Teaching skills for M31 Labs products: Arbiter, Canopy, mdpp, and GoSX.",
+  "author": {
+    "name": "Oscar Villavicencio",
+    "email": "odvcencio@gmail.com"
+  },
+  "homepage": "https://github.com/odvcencio/m31labs-skills",
+  "license": "MIT"
+}
