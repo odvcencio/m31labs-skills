@@ -6,34 +6,35 @@ This repository is the public home for LLM-readable skills that explain when to 
 
 ## Status
 
-This repo is currently at M0: public scaffolding and design specification.
+This repo now contains the first public skill corpus.
 
-The skill directories under `skills/` are added only when they are production-ready. That means no empty skill stubs and no auto-activation targets that teach agents incomplete behavior.
+Skill directories under `skills/` are added only when they are production-ready. That means no empty skill stubs and no auto-activation targets that teach agents incomplete behavior.
 
 Marketplace submission is deferred until enough real skills exist to make installation useful.
 
 ## For LLM Agents
 
-Start with [AGENTS.md](AGENTS.md). If a skill body exists under `skills/<skill>/SKILL.md`, read that file before answering product usage questions. If a planned skill does not exist yet, do not invent product APIs from the roadmap; use the public product repository or docs as the source of truth.
+Start with [AGENTS.md](AGENTS.md). If a skill body exists under `skills/<skill>/SKILL.md`, read that file before answering product usage questions. If a relevant skill does not exist yet, do not invent product APIs from roadmap text; use the public product repository or docs as the source of truth.
 
-## Planned Skill Inventory
+## Skill Inventory
 
 | Skill | Product area | Status |
 |---|---|---|
-| `using-arbiter` | Decision modeling, entitlements, feature gates, workflow rules | Planned |
-| `using-canopy` | Structural code intelligence, references, call graphs, blast radius | Planned |
-| `using-mdpp` | Grammar-aware markdown tooling, diagnostics, formatting, export | Planned |
-| `using-gosx` | GoSX umbrella, setup, mental model, skill routing | Planned |
-| `using-gosx-components` | `.gsx` component syntax and rendering model | Planned |
-| `using-gosx-routing` | File routing, layouts, loaders, server rendering | Planned |
-| `using-gosx-actions` | Mutations, validation, action dispatch, CSRF | Planned |
-| `using-gosx-signals` | Reactive signals, computed values, effects | Planned |
-| `using-gosx-islands` | Client islands, hydration, manifests, WASM serialization | Planned |
-| `using-gosx-server-features` | Sessions, auth, cookies, flash state, streaming | Planned |
-| `using-gosx-build` | Compile/build/dev server, assets, targets | Planned |
-| `using-gosx-scene3d` | Scene graph, materials, cameras, lighting, WebGPU/WebGL | Planned |
-| `using-gosx-simulation` | Game loop, physics, server-authoritative simulation | Planned |
-| `using-gosx-collaboration` | CRDTs, workspaces, presence, sync protocols | Planned |
+| [`using-arbiter`](skills/using-arbiter/SKILL.md) | Decision modeling, entitlements, feature gates, workflow rules | Available |
+| [`using-canopy`](skills/using-canopy/SKILL.md) | Structural code intelligence, references, call graphs, blast radius | Available |
+| [`using-mdpp`](skills/using-mdpp/SKILL.md) | Grammar-aware markdown tooling, diagnostics, formatting, export | Available |
+| [`using-gosx`](skills/using-gosx/SKILL.md) | GoSX umbrella, setup, mental model, skill routing | Available |
+| [`using-gosx-components`](skills/using-gosx-components/SKILL.md) | `.gsx` component syntax and rendering model | Available |
+| [`using-gosx-routing`](skills/using-gosx-routing/SKILL.md) | File routing, layouts, loaders, server rendering | Available |
+| [`using-gosx-actions`](skills/using-gosx-actions/SKILL.md) | Mutations, validation, action dispatch, CSRF | Available |
+| [`using-gosx-signals`](skills/using-gosx-signals/SKILL.md) | Reactive signals, computed values, effects | Available |
+| [`using-gosx-islands`](skills/using-gosx-islands/SKILL.md) | Client islands, hydration, manifests, WASM serialization | Available |
+| [`using-gosx-server-features`](skills/using-gosx-server-features/SKILL.md) | Sessions, auth, cookies, flash state, streaming | Available |
+| [`using-gosx-build`](skills/using-gosx-build/SKILL.md) | Compile/build/dev server, assets, targets | Available |
+| [`using-gosx-scene3d`](skills/using-gosx-scene3d/SKILL.md) | Scene graph, materials, cameras, lighting, WebGPU/WebGL | Available |
+| [`using-gosx-simulation`](skills/using-gosx-simulation/SKILL.md) | Game loop, physics, server-authoritative simulation | Available |
+| [`using-gosx-collaboration`](skills/using-gosx-collaboration/SKILL.md) | CRDTs, workspaces, presence, sync protocols | Available |
+| [`using-gosx-ecosystem`](skills/using-gosx-ecosystem/SKILL.md) | GoSX native, editor, admin, and CMS periphery | Available |
 
 ## Repository Map
 
